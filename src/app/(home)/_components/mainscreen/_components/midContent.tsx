@@ -1,6 +1,8 @@
+import SocialIcons from "./social-icons";
+
 const MidContent = () => {
     return (
-        <section className="w-full h-full flex items-center justify-center">
+        <section className="w-full h-full flex items-center justify-center flex-col">
             <div>
                 <div className="flex w-full justify-between">
                     <h2 className="uppercase text-gray-400 text-2xl select-none">
@@ -13,10 +15,12 @@ const MidContent = () => {
                         Gabriel
                     </h1>
                     <p className="text-2xl uppercase text-yellow-300 absolute right-0 select-none drop-shadow-sm">
-                        Desenvolvedor <br /> fullstack
+                        Desenvolvedor
                     </p>
                 </div>
             </div>
+
+            <SocialIcons />
         </section>
     );
 };

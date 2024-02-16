@@ -1,9 +1,10 @@
 import Header from "./_components/header";
 import MidContent from "./_components/midContent";
+import SocialIcons from "./_components/social-icons";
 
 const MainScreen = () => {
     return (
-        <div className="w-[100vw] h-[100vh] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#1f1f1f]  overflow-hidden">
+        <div className="w-[100vw] h-[100vh] bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#474747] ">
             <Header />
             <MidContent />
         </div>

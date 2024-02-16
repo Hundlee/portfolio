@@ -38,6 +38,6 @@
 
 @layer base {
     body {
-        @apply bg-slate-950 text-slate-50 w-[100vw] h-[100vh];
+        @apply bg-slate-950 text-slate-50 w-[100vw] h-[100vh] border-none outline-none;
     }
 }
