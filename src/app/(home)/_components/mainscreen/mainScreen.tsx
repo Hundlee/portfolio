@@ -1,6 +1,5 @@
 import Header from "./_components/header";
 import MidContent from "./_components/midContent";
-import SocialIcons from "./_components/social-icons";
 
 const MainScreen = () => {
     return (
