@@ -8,10 +8,8 @@ const poppins = Poppins({
 
 export default function Home() {
     return (
-        <main className={poppins.className}>
-            <div className="flex items-center justify-center w-full h-full">
-                <MainScreen />
-            </div>
+        <main className={`w-full h-full ${poppins.className}`}>
+            <MainScreen />
         </main>
     );
 }

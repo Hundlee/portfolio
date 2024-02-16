@@ -1,23 +1,23 @@
 const MidContent = () => {
     return (
-        <div className="flex items-center justify-center">
-            <div className="flex flex-col items-center justify-center w-fit">
+        <section className="w-full h-full flex items-center justify-center">
+            <div>
                 <div className="flex w-full justify-between">
-                    <h2 className="uppercase text-gray-300 text-xl">Olá sou</h2>
-                    <h3 className="text-yellow-300 text-nowrap tracking-[-1rem]">
-                        ----------------
-                    </h3>
+                    <h2 className="uppercase text-gray-300 text-xl select-none">
+                        Olá sou
+                    </h2>
+                    <div className="border-b-4 border-solid border-yellow-300 w-[80%] mb-3 select-none"></div>
                 </div>
                 <div className="relative">
-                    <h1 className="uppercase text-9xl text-white font-bold">
+                    <h1 className="uppercase text-9xl text-white font-bold select-none tracking-widest">
                         Gabriel
                     </h1>
-                    <p className="text-2xl uppercase text-yellow-300 absolute right-0 ">
+                    <p className="text-2xl uppercase text-yellow-300 absolute right-0 select-none">
                         Desenvolvedor <br /> fullstack
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

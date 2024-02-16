@@ -3,7 +3,7 @@ import MidContent from "./_components/midContent";
 
 const MainScreen = () => {
     return (
-        <div className="w-full h-full bg-slate-950">
+        <div className="w-[100vw] h-[100vh]  overflow-hidden">
             <Header />
             <MidContent />
         </div>
