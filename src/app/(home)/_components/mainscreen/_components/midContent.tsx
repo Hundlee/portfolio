@@ -3,7 +3,7 @@ const MidContent = () => {
         <section className="w-full h-full flex items-center justify-center">
             <div>
                 <div className="flex w-full justify-between">
-                    <h2 className="uppercase text-gray-300 text-xl select-none">
+                    <h2 className="uppercase text-gray-400 text-2xl select-none">
                         Olá sou
                     </h2>
                     <div className="border-b-4 border-solid border-yellow-300 w-[80%] mb-3 select-none"></div>
@@ -12,7 +12,7 @@ const MidContent = () => {
                     <h1 className="uppercase text-9xl text-white font-bold select-none tracking-widest">
                         Gabriel
                     </h1>
-                    <p className="text-2xl uppercase text-yellow-300 absolute right-0 select-none">
+                    <p className="text-2xl uppercase text-yellow-300 absolute right-0 select-none drop-shadow-sm">
                         Desenvolvedor <br /> fullstack
                     </p>
                 </div>
