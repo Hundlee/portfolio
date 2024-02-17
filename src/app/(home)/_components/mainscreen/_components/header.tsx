@@ -22,7 +22,7 @@ const Header = () => {
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#technologies"
                             className="pl-2 hover:text-zinc-300 duration-200 ease-in-out"
                         >
                             features

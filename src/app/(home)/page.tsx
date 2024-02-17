@@ -1,6 +1,7 @@
-import AboutMe from "./_components/about-me/aboutme";
+import AboutMe from "./_components/about-me/about-me";
 import MainScreen from "./_components/mainscreen/mainScreen";
 import { Poppins } from "next/font/google";
+import Tecnologies from "./_components/technologies/technologies";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -12,6 +13,7 @@ export default function Home() {
         <main className={poppins.className}>
             <MainScreen />
             <AboutMe />
+            <Tecnologies />
         </main>
     );
 }
