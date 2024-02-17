@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export default function Home() {
     return (
-        <main className={`w-full h-full ${poppins.className}`}>
+        <main className={poppins.className}>
             <MainScreen />
             <AboutMe />
         </main>

@@ -37,7 +37,10 @@
 }
 
 @layer base {
+    html {
+        @apply scroll-smooth;
+    }
     body {
-        @apply bg-slate-950 text-slate-50 w-[100vw] h-[100vh] border-none outline-none;
+        @apply bg-slate-950 text-slate-50 w-full h-full border-none outline-none [&::-webkit-scrollbar]:hidden;
     }
 }

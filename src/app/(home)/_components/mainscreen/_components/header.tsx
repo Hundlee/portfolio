@@ -14,7 +14,7 @@ const Header = () => {
                 <ul className="flex flex-row gap-8 text-zinc-500 uppercase font-medium absolute right-10 top-12 ">
                     <li>
                         <a
-                            href=""
+                            href="#about-me"
                             className="pl-2 hover:text-zinc-300 duration-200 ease-in-out"
                         >
                             Sobre mim
@@ -25,7 +25,7 @@ const Header = () => {
                             href=""
                             className="pl-2 hover:text-zinc-300 duration-200 ease-in-out"
                         >
-                            Tecnologias
+                            features
                         </a>
                     </li>
                     <li>
