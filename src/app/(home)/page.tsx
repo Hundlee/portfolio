@@ -1,3 +1,4 @@
+import AboutMe from "./_components/about-me/aboutme";
 import MainScreen from "./_components/mainscreen/mainScreen";
 import { Poppins } from "next/font/google";
 
@@ -10,6 +11,7 @@ export default function Home() {
     return (
         <main className={`w-full h-full ${poppins.className}`}>
             <MainScreen />
+            <AboutMe />
         </main>
     );
 }
