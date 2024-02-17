@@ -7,17 +7,22 @@ import {
 } from "@/_components/ui/hover-card";
 import Image from "next/image";
 import { LABELBACKEND, LABELFRONTEND } from "../_constants/label";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ weight: "500", subsets: ["latin"] });
 
 const Tecnologies = () => {
     return (
         <div
             className="w-[100vw] h-[80vh] flex flex-col items-center justify-center"
-            id="technologies"
+            id="recursos"
         >
-            <h1 className="text-3xl mb-10 uppercase">Tecnologias</h1>
+            <h1 className="text-3xl mb-10 uppercase">Recursos</h1>
             <div className="flex gap-5">
                 <section className="w-[30vw] h-[45vh] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2">
-                    <h2 className="p-3 text-2xl text-black font-semibold text-center">
+                    <h2
+                        className={`p-3 text-2xl text-black font-semibold text-center ${inter.className}`}
+                    >
                         FrontEnd
                     </h2>
                     <div className="flex justify-center">
@@ -60,7 +65,9 @@ const Tecnologies = () => {
                 </section>
 
                 <section className="w-[30vw] h-[45vh] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white ">
-                    <h2 className="p-3 text-2xl text-black font-semibold text-center">
+                    <h2
+                        className={`p-3 text-2xl text-black font-semibold text-center ${inter.className}`}
+                    >
                         Backend
                     </h2>
                     <div className="flex justify-center">
