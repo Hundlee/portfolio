@@ -74,6 +74,6 @@
         @apply border-border;
     }
     body {
-        @apply bg-slate-950 text-slate-50 w-full h-full border-none outline-none [&::-webkit-scrollbar]:hidden;
+        @apply bg-slate-950 text-slate-50 min-w-full h-full border-none outline-none [&::-webkit-scrollbar]:hidden;
     }
 }

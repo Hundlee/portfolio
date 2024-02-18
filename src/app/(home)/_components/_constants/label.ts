@@ -102,4 +102,10 @@ export const LABELBACKEND: BackendProps[] = [
         alt: "expressIcon",
         description: "Express é um framework Back-End para JavaScript",
     },
+    {
+        name: "FireBase",
+        url: "./file-type-firebase.svg",
+        alt: "firebaseIcon",
+        description: "Firebase e um sistema de gerenciamento de banco de dados",
+    },
 ];

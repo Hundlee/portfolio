@@ -2,6 +2,7 @@ import AboutMe from "./_components/about-me/about-me";
 import MainScreen from "./_components/mainscreen/mainScreen";
 import { Poppins } from "next/font/google";
 import Tecnologies from "./_components/technologies/technologies";
+import Projects from "./_components/projects/projects";
 
 const poppins = Poppins({
     subsets: ["latin"],
@@ -14,6 +15,7 @@ export default function Home() {
             <MainScreen />
             <AboutMe />
             <Tecnologies />
+            <Projects />
         </main>
     );
 }

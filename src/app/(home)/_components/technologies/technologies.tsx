@@ -9,24 +9,24 @@ import Image from "next/image";
 import { LABELBACKEND, LABELFRONTEND } from "../_constants/label";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ weight: "500", subsets: ["latin"] });
+const inter = Inter({ weight: "800", subsets: ["latin"] });
 
 const Tecnologies = () => {
     return (
         <div
-            className="w-[100vw] h-[80vh] flex flex-col items-center justify-center"
+            className="w-[100vw] h-[65rem] flex flex-col items-center justify-center md:h-[55rem] lg:h-[35rem]"
             id="recursos"
         >
             <h1 className="text-3xl mb-10 uppercase">Recursos</h1>
-            <div className="flex gap-5">
-                <section className="w-[30vw] h-[45vh] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2">
+            <div className="flex flex-col gap-5 ">
+                <section className="w-[30rem] h-[30rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2 md:w-[45rem] md:h-[22rem] lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
                     <h2
-                        className={`p-3 text-2xl text-black font-semibold text-center ${inter.className}`}
+                        className={`p-3 text-2xl text-black text-center ${inter.className}`}
                     >
                         FrontEnd
                     </h2>
                     <div className="flex justify-center">
-                        <article className="grid grid-cols-3 gap-5 mt-10">
+                        <article className="grid grid-cols-3 gap-10 mt-5 md:grid-cols-4 lg:flex">
                             {LABELFRONTEND.map((item, index) => (
                                 <HoverCard key={index}>
                                     <HoverCardTrigger>
@@ -64,14 +64,14 @@ const Tecnologies = () => {
                     </div>
                 </section>
 
-                <section className="w-[30vw] h-[45vh] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white ">
+                <section className="w-[30rem] h-[25rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white md:w-[45rem] md:h-[22rem]  lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
                     <h2
                         className={`p-3 text-2xl text-black font-semibold text-center ${inter.className}`}
                     >
                         Backend
                     </h2>
                     <div className="flex justify-center">
-                        <article className="grid grid-cols-3 gap-2 mt-10">
+                        <article className="grid grid-cols-3 gap-10 mt-5 lg:grid-cols-6">
                             {LABELBACKEND.map((item, index) => (
                                 <HoverCard key={index}>
                                     <HoverCardTrigger>
