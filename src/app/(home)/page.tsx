@@ -12,10 +12,12 @@ const poppins = Poppins({
 export default function Home() {
     return (
         <main className={poppins.className}>
-            <MainScreen />
-            <AboutMe />
-            <Tecnologies />
-            <Projects />
+            <div className="w-full flex flex-col items-center">
+                <MainScreen />
+                <AboutMe />
+                <Tecnologies />
+                <Projects />
+            </div>
         </main>
     );
 }

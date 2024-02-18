@@ -1,20 +1,22 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { LABELSPROJECTS } from "../_constants/label-projects";
 
 const Projects = () => {
     return (
-        <div className="w-full h-[60rem] flex flex-col items-center ">
+        <div className="max-w-[70vw] h-[60rem] flex flex-col items-center ">
             <h1 className="text-3xl uppercase">Projetos</h1>
-            <div className="w-[85rem] mt-20 grid grid-cols-4">
+
+            <div className="mt-20 grid grid-cols-3 gap-5 ">
                 {LABELSPROJECTS.map((item, index) => (
                     <div
-                        className="w-[30rem] h-[23rem] bg-white rounded-xl flex flex-col items-center hover:scale-105 duration-300"
+                        className="w-[27.5rem] h-[22rem] bg-white rounded-xl flex flex-col items-center hover:scale-105 duration-300"
                         key={index}
                     >
-                        <Image
-                            src="/teste.png"
-                            alt="logo"
-                            width={460}
+                        <img
+                            src={item.imageURL}
+                            alt={item.alt}
+                            width={420}
                             height={200}
                             className="mt-2 rounded-xl"
                         />
@@ -22,7 +24,7 @@ const Projects = () => {
                             <h1 className="text-black ml-2 mt-4 font-semibold text-2xl">
                                 {item.name}
                             </h1>
-                            <p className="text-gray-400 ml-2">
+                            <p className="text-gray-400 ml-2 text-sm">
                                 {item.description}
                             </p>
                         </div>
@@ -31,9 +33,9 @@ const Projects = () => {
                  "
                         >
                             <article className="flex gap-2">
-                                {item.technologies.map((item, index) => (
+                                {item.technologies.map((tec, index) => (
                                     <Image
-                                        src={item}
+                                        src={tec}
                                         alt="logo"
                                         width={20}
                                         height={20}
