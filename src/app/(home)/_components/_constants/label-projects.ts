@@ -63,4 +63,31 @@ export const LABELSPROJECTS: ProjectProps[] = [
             "file-type-css.svg",
         ],
     },
+    {
+        name: "FORLIFE",
+        imageURL: "./forLIFE.png",
+        gitUrl: "https://github.com/Hundlee/site-responsivo-saude",
+        deploy: "https://site-responsivo-saude.vercel.app/",
+        alt: "forlife",
+        description: "landing page, site de saúde",
+        technologies: [
+            "javascript-js.svg",
+            "file-type-html.svg",
+            "file-type-sass.svg",
+            "file-type-css.svg",
+        ],
+    },
+    {
+        name: "Snake game",
+        imageURL: "./snakegamee.png",
+        gitUrl: "https://github.com/Hundlee/snakegame",
+        deploy: "https://snakegame-opal.vercel.app/",
+        alt: "snakeGame",
+        description: "feito com JS",
+        technologies: [
+            "javascript-js.svg",
+            "file-type-html.svg",
+            "file-type-css.svg",
+        ],
+    },
 ];
