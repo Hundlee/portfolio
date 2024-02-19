@@ -6,8 +6,8 @@ const AboutMe = () => {
         >
             <h1 className="text-3xl mb-10 uppercase">Sobre mim</h1>
             <div>
-                <h2 className="max-w-[300px] text-gray-200 text-justify sm:max-w-[400px] md:max-w-[600px]">
-                    Olá a todos! Meu nome é{" "}
+                <h2 className="max-w-[300px] text-gray-200 text-justify sm:max-w-[400px] md:max-w-[600px] md:text-xl lg:text-xl">
+                    Olá! Meu nome é{" "}
                     <span className="text-white font-semibold">
                         Gabriel Mesquita
                     </span>{" "}

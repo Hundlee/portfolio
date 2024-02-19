@@ -6,7 +6,7 @@ import {
     HoverCardTrigger,
 } from "@/_components/ui/hover-card";
 import Image from "next/image";
-import { LABELBACKEND, LABELFRONTEND } from "../_constants/label";
+import { LABELBACKEND, LABELFRONTEND } from "../_constants/label-tech";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ weight: "800", subsets: ["latin"] });

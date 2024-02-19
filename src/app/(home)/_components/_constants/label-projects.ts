@@ -38,6 +38,19 @@ export const LABELSPROJECTS: ProjectProps[] = [
         ],
     },
     {
+        name: "Chat Clinica",
+        imageURL: "./clinicaChat.png",
+        gitUrl: "https://github.com/Hundlee/chatReact",
+        deploy: "https://chat-react-kohl.vercel.app/",
+        alt: "Chat Clinica",
+        description: "Chat para atendimento de uma clinica",
+        technologies: [
+            "javascript-js.svg",
+            "file-type-firebase.svg",
+            "file-type-css.svg",
+        ],
+    },
+    {
         name: "Conversor de Moedas",
         imageURL: "./converterApp.png",
         gitUrl: "https://github.com/Hundlee/CorverterApp",
