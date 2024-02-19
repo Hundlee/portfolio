@@ -12,7 +12,7 @@ const poppins = Poppins({
 export default function Home() {
     return (
         <main className={poppins.className}>
-            <div className="w-full flex flex-col items-center">
+            <div className="w-full flex flex-col items-center overflow-y-hidden">
                 <MainScreen />
                 <AboutMe />
                 <Tecnologies />

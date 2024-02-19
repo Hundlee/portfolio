@@ -14,12 +14,12 @@ const inter = Inter({ weight: "800", subsets: ["latin"] });
 const Tecnologies = () => {
     return (
         <div
-            className="w-[100vw] h-[65rem] flex flex-col items-center justify-center md:h-[55rem] lg:h-[35rem]"
+            className="w-[100vw] mt-10 h-auto flex flex-col items-center justify-center md:h-[55rem] lg:h-[35rem]"
             id="recursos"
         >
             <h1 className="text-3xl mb-10 uppercase">Recursos</h1>
             <div className="flex flex-col gap-5 ">
-                <section className="w-[30rem] h-[30rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2 md:w-[45rem] md:h-[22rem] lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
+                <section className="w-[22rem] h-[25rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2 sm:w-[30rem] sm:h-[30rem] md:w-[45rem] md:h-[22rem] lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
                     <h2
                         className={`p-3 text-2xl text-black text-center ${inter.className}`}
                     >
@@ -64,7 +64,7 @@ const Tecnologies = () => {
                     </div>
                 </section>
 
-                <section className="w-[30rem] h-[25rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white md:w-[45rem] md:h-[22rem]  lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
+                <section className="w-[22rem] h-[25rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white md:w-[45rem] md:h-[22rem]  lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
                     <h2
                         className={`p-3 text-2xl text-black font-semibold text-center ${inter.className}`}
                     >
