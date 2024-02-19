@@ -2,7 +2,7 @@ export interface ProjectProps {
     name: string;
     imageURL: string;
     gitUrl: string;
-    deploy: string;
+    deploy?: string;
     alt: string;
     description: string;
     technologies: string[];
@@ -13,7 +13,6 @@ export const LABELSPROJECTS: ProjectProps[] = [
         name: "Portfólio",
         gitUrl: "https://github.com/Hundlee/portfolio",
         imageURL: "./portifolioProject.png",
-        deploy: "https://github.com/Hundlee/portfolio",
         alt: "Portfólio",
         description: "Portfólio",
         technologies: [

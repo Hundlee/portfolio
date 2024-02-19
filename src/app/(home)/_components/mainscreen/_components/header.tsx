@@ -11,7 +11,7 @@ const Header = () => {
                     height={120}
                     className="flex items-center justify-center absolute left-6 top-3"
                 />
-                <ul className="flex flex-row gap-8 text-zinc-500 uppercase font-medium absolute right-10 top-12 ">
+                <ul className="flex flex-row text-xl gap-8 text-zinc-500 uppercase font-medium absolute right-10 top-12 ">
                     <li>
                         <a
                             href="#about-me"
@@ -30,7 +30,7 @@ const Header = () => {
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#projects"
                             className="pl-2 hover:text-zinc-300 duration-200 ease-in-out"
                         >
                             Projetos
@@ -38,7 +38,7 @@ const Header = () => {
                     </li>
                     <li>
                         <a
-                            href=""
+                            href="#contact"
                             className="pl-2 hover:text-zinc-300 duration-200 ease-in-out"
                         >
                             Contato

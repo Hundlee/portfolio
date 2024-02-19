@@ -4,10 +4,13 @@ import { LABELSPROJECTS } from "../_constants/label-projects";
 
 const Projects = () => {
     return (
-        <div className="w-full h-auto flex flex-col items-center mt-10">
+        <div
+            className="w-full h-auto flex flex-col items-center mt-20"
+            id="projects"
+        >
             <h1 className="text-3xl uppercase">Projetos</h1>
 
-            <div className="mt-10 flex flex-col gap-10 xl:grid xl:grid-cols-2 2xl:grid-cols-3 2xl:gap-5">
+            <div className="mt-10 mb-20 flex flex-col gap-10 xl:grid xl:grid-cols-2 2xl:grid-cols-3 2xl:gap-5">
                 {LABELSPROJECTS.map((item, index) => (
                     <div
                         className="w-[22rem] h-[19.5rem] bg-white rounded-xl flex flex-col items-center hover:scale-105 duration-300 sm:w-[30rem] sm:h-[23rem] md:w-[45rem] md:h-[30rem] xl:w-[31rem] xl:h-[23rem] 2xl:w-[27.5rem] 2xl:h-[21.5rem]"
@@ -41,17 +44,26 @@ const Projects = () => {
                                     />
                                 ))}
                             </article>
-                            <button
-                                className="w-[120px] h-[40px] bg-blue-600 rounded-3xl
+                            <div>
+                                {item.deploy && (
+                                    <button
+                                        className="w-20 h-10 bg-blue-800 rounded-3xl mr-2
+                                                 "
+                                    >
+                                        <a href={item.deploy} target="_blank">
+                                            Deploy
+                                        </a>
+                                    </button>
+                                )}
+                                <button
+                                    className="w-20 h-10 bg-gray-900 rounded-3xl
                      "
-                            >
-                                <a
-                                    href="https://github.com/Hundlee/portfolio"
-                                    target="_blank"
                                 >
-                                    Ver mais
-                                </a>
-                            </button>
+                                    <a href={item.gitUrl} target="_blank">
+                                        Github
+                                    </a>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 ))}
