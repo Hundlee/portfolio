@@ -8,7 +8,7 @@ const Projects = () => {
             className="w-full h-auto flex flex-col items-center mt-20"
             id="projects"
         >
-            <h1 className="text-3xl uppercase">Projetos</h1>
+            <h1 className="text-3xl text-yellow-300 uppercase">Projetos</h1>
 
             <div className="mt-10 mb-20 flex flex-col gap-10 xl:grid xl:grid-cols-2 2xl:grid-cols-3 2xl:gap-5">
                 {LABELSPROJECTS.map((item, index) => (
@@ -19,7 +19,7 @@ const Projects = () => {
                         <img
                             src={item.imageURL}
                             alt={item.alt}
-                            className="mt-2 rounded-xl w-[340px] sm:[460px] md:w-[700px] xl:w-[470px] 2xl:w-[420px]"
+                            className="mt-2 rounded-xl w-[340px] sm:w-[460px] md:w-[700px] xl:w-[470px] 2xl:w-[420px]"
                         />
                         <div className="w-full">
                             <h1 className="text-black ml-2 mt-4 font-semibold text-2xl">
@@ -47,7 +47,7 @@ const Projects = () => {
                             <div>
                                 {item.deploy && (
                                     <button
-                                        className="w-20 h-10 bg-blue-800 rounded-3xl mr-2
+                                        className="w-20 h-10 bg-blue-800 rounded-3xl mr-2 hover:opacity-80 duration-200
                                                  "
                                     >
                                         <a href={item.deploy} target="_blank">
@@ -56,7 +56,7 @@ const Projects = () => {
                                     </button>
                                 )}
                                 <button
-                                    className="w-20 h-10 bg-gray-900 rounded-3xl
+                                    className="w-20 h-10 bg-gray-900 rounded-3xl hover:opacity-80 duration-200
                      "
                                 >
                                     <a href={item.gitUrl} target="_blank">

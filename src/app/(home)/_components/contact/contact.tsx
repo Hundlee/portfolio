@@ -52,30 +52,45 @@ const Contact = () => {
                         </li>
                     </ul>
                 </div>
-                <img
-                    src="/logo.png"
-                    alt="logo"
-                    className="w-[15rem] hidden xl:block"
-                />
+                <a href="#">
+                    {" "}
+                    <img
+                        src="/logo.png"
+                        alt="logo"
+                        className="w-[15rem] hidden xl:block"
+                    />
+                </a>
                 <div>
                     <ul className="mr-2 flex gap-2 text-lg font-semibold sm:flex-col sm:text-xl">
                         <li className="my-2">
-                            <a href="#" className="hover:underline ">
+                            <a
+                                href="#"
+                                className="hover:underline duration-300"
+                            >
                                 Inicio <span className="sm:hidden"> |</span>
                             </a>
                         </li>
                         <li className="my-2">
-                            <a href="#about-me" className="hover:underline ">
+                            <a
+                                href="#about-me"
+                                className="hover:underline duration-300"
+                            >
                                 Sobre mim <span className="sm:hidden"> |</span>
                             </a>
                         </li>
                         <li className="my-2">
-                            <a href="#recursos" className="hover:underline ">
+                            <a
+                                href="#recursos"
+                                className="hover:underline duration-300"
+                            >
                                 Recursos <span className="sm:hidden"> |</span>
                             </a>
                         </li>
                         <li className="my-2">
-                            <a href="#projects" className="hover:underline ">
+                            <a
+                                href="#projects"
+                                className="hover:underline duration-300"
+                            >
                                 Projetos
                             </a>
                         </li>
