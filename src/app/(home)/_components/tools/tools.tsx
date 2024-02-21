@@ -15,7 +15,7 @@ const Tools = () => {
     return (
         <div
             className="w-[100vw] mt-10 h-auto flex flex-col items-center justify-center md:h-[55rem] lg:h-[35rem]"
-            id="recursos"
+            id="tools"
         >
             <h1 className="text-3xl mb-10 text-yellow-300 uppercase">
                 Ferramentas

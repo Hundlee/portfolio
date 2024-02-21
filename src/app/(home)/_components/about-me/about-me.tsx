@@ -13,16 +13,15 @@ const AboutMe = () => {
                     <span className="text-white font-semibold">
                         Gabriel Mesquita
                     </span>{" "}
-                    e tenho 20 anos. Sou completamente apaixonado por
-                    programação e tenho me dedicado a estudar essa área há mais
-                    de 2 anos, com um foco especial em Frontend. No entanto, meu
-                    objetivo é me tornar um desenvolvedor FullStack. Estou
-                    constantemente buscando novos desafios e oportunidades para
-                    crescer profissionalmente. Estou aberto a colaborações e
-                    parcerias que possam enriquecer minha jornada na tecnologia.
-                    Estou animado para ver onde essa trajetória me levará e
-                    estou confiante de que estou no caminho certo para alcançar
-                    meus objetivos.
+                    Tenho 20 anos e sou um desenvolvedor FullStack apaixonado
+                    por programação. Com mais de 2 anos de experiência dedicada
+                    ao estudo e prática em desenvolvimento web. Estou
+                    constantemente buscando desafios e oportunidades para
+                    expandir meu conjunto de habilidades e aprimorar minha
+                    experiência profissional. Sou comprometido com o
+                    desenvolvimento de aplicações robustas e escaláveis, e estou
+                    sempre aberto a colaborações e parcerias que possam
+                    enriquecer minha jornada na tecnologia.
                 </h2>
             </div>
         </div>

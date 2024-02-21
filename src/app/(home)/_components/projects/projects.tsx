@@ -19,7 +19,7 @@ const Projects = () => {
                         <img
                             src={item.imageURL}
                             alt={item.alt}
-                            className="mt-2 rounded-xl w-[340px] sm:w-[460px] md:w-[700px] xl:w-[470px] 2xl:w-[420px]"
+                            className="mt-2 rounded-xl w-[340px] max-h-[160px] sm:max-h-[225px] sm:w-[460px] md:w-[700px] md:max-h-[335px] xl:w-[470px] xl:max-h-[225px] 2xl:max-h-[200px] 2xl:w-[420px]"
                         />
                         <div className="w-full">
                             <h1 className="text-black ml-2 mt-4 font-semibold text-2xl">

@@ -12,10 +12,9 @@ import {
 } from "@/_components/ui/sheet";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
 
 const Header = () => {
+
     return (
         <header className="w-full h-auto bg-transparent relative">
             <div className="flex flex-row items-center justify-between bg-transparent">
@@ -41,23 +40,23 @@ const Header = () => {
                                 </SheetTitle>
                             </SheetHeader>
                             <div className="text-center">
-                                <div className="text-xl text-zinc-500 uppercase font-medium p-5">
-                                    <div>
-                                        <Link
+                                <ul className="text-xl text-zinc-500 uppercase font-medium p-5 ">
+                                    <li>
+                                        <a
                                             href="#about-me"
                                             className=" hover:text-zinc-300 duration-200 ease-in-out"
                                         >
                                             Sobre mim
-                                        </Link>
-                                    </div>
-                                    <div>
-                                        <Link
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
                                             href="#tools"
-                                            className=" hover:text-zinc-300 duration-200 ease-in-out "
+                                            className=" hover:text-zinc-300 duration-200 ease-in-out"
                                         >
                                             Ferramentas
-                                        </Link>
-                                    </div>
+                                        </a>
+                                    </li>
                                     <li>
                                         <a
                                             href="#projects"
@@ -74,7 +73,7 @@ const Header = () => {
                                             Contato
                                         </a>
                                     </li>
-                                </div>
+                                </ul>
                             </div>
                             <div>
                                 <ul className="flex flex-row">
@@ -143,7 +142,7 @@ const Header = () => {
                     </li>
                     <li>
                         <a
-                            href="#recursos"
+                            href="#tools"
                             className="pl-2 hover:text-zinc-300 duration-200 ease-in-out"
                         >
                             Ferramentas

@@ -45,8 +45,9 @@ export const LABELSPROJECTS: ProjectProps[] = [
         description: "Chat para atendimento de uma clinica",
         technologies: [
             "javascript-js.svg",
-            "file-type-firebase.svg",
+            "file-type-html.svg",
             "file-type-css.svg",
+            "file-type-firebase.svg",
         ],
     },
     {
@@ -101,5 +102,27 @@ export const LABELSPROJECTS: ProjectProps[] = [
             "file-type-html.svg",
             "file-type-css.svg",
         ],
+    },
+    {
+        name: "Gerenciar usuários",
+        imageURL: "./noImage.png",
+        gitUrl: "https://github.com/Hundlee/users-manage-backend",
+        alt: "Gerenciar usuarios",
+        description: "Criar usuário | Backend",
+        technologies: [
+            "typescript-icon.svg",
+            "nodejs.svg",
+            "file-type-light-prisma.svg",
+            "mongodb-original.svg",
+            "fastify.svg",
+        ],
+    },
+    {
+        name: "ContextAPI",
+        imageURL: "./contextAPI.png",
+        gitUrl: "https://github.com/Hundlee/reactContextAPI",
+        alt: "contextAPI",
+        description: "Criar dados, usando context API",
+        technologies: ["typescript-icon.svg", "react.svg", "file-type-css.svg"],
     },
 ];

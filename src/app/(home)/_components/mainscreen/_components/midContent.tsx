@@ -13,7 +13,7 @@ const MidContent = () => {
                         Gabriel
                     </h1>
                     <p className="text-sm uppercase text-yellow-300 absolute right-3 select-none tracking-widest [text-shadow:_0_1px_5px_black] md:text-2xl">
-                        Desenvolvedor <br /> Fullstack
+                        Desenvolvedor <br /> fullstack
                     </p>
                 </div>
             </div>

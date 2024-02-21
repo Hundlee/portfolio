@@ -80,10 +80,11 @@ const Contact = () => {
                         </li>
                         <li className="my-2">
                             <a
-                                href="#recursos"
+                                href="#tools"
                                 className="hover:underline duration-300"
                             >
-                                Recursos <span className="sm:hidden"> |</span>
+                                Ferramentas{" "}
+                                <span className="sm:hidden"> |</span>
                             </a>
                         </li>
                         <li className="my-2">
