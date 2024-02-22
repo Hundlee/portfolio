@@ -61,13 +61,13 @@ const Contact = () => {
                     />
                 </a>
                 <div>
-                    <ul className="mr-2 flex gap-2 text-lg font-semibold sm:flex-col sm:text-xl">
+                    <ul className="mr-2 flex gap-2 text-sm font-semibold sm:flex-col sm:text-xl">
                         <li className="my-2">
                             <a
                                 href="#"
                                 className="hover:underline duration-300"
                             >
-                                Inicio <span className="sm:hidden"> |</span>
+                                Inicio <span className="sm:hidden"> | </span>
                             </a>
                         </li>
                         <li className="my-2">
@@ -75,7 +75,7 @@ const Contact = () => {
                                 href="#about-me"
                                 className="hover:underline duration-300"
                             >
-                                Sobre mim <span className="sm:hidden"> |</span>
+                                Sobre mim <span className="sm:hidden">|</span>
                             </a>
                         </li>
                         <li className="my-2">
@@ -83,8 +83,8 @@ const Contact = () => {
                                 href="#tools"
                                 className="hover:underline duration-300"
                             >
-                                Ferramentas{" "}
-                                <span className="sm:hidden"> |</span>
+                                Ferramentas
+                                <span className="sm:hidden"> | </span>
                             </a>
                         </li>
                         <li className="my-2">
