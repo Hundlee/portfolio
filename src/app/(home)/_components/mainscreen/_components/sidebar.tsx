@@ -19,49 +19,49 @@ const Sidebar = () => {
                     </Button>
                 </SheetTrigger>
                 <SheetContent className="bg-gray-900 border-none flex flex-col items-center justify-between">
-                    <SheetHeader className="text-left p-5">
-                        <SheetTitle className="text-white text-xl">
+                    <SheetHeader className=" w-full border-b p-6">
+                        <SheetTitle className="text-white text-xl ">
                             Menu
                         </SheetTitle>
                     </SheetHeader>
-                    <div className="text-center">
-                        <ul className="text-xl text-zinc-500 uppercase font-medium p-5 ">
-                            <li>
+                    <div>
+                        <ul className="flex flex-col uppercase w-full">
+                            <Button variant="outline" className="mb-2" asChild>
                                 <a
                                     href="#about-me"
-                                    className=" hover:text-zinc-300 duration-200 ease-in-out"
+                                    className="w-72 hover:text-zinc-800 duration-200 ease-in-out font-semibold text-black"
                                 >
                                     Sobre mim
                                 </a>
-                            </li>
-                            <li>
+                            </Button>
+                            <Button variant="outline" className="mb-2" asChild>
                                 <a
                                     href="#tools"
-                                    className=" hover:text-zinc-300 duration-200 ease-in-out"
+                                    className="w-72 hover:text-zinc-800 duration-200 ease-in-out  font-semibold text-black "
                                 >
                                     Ferramentas
                                 </a>
-                            </li>
-                            <li>
+                            </Button>
+                            <Button variant="outline" className="mb-2" asChild>
                                 <a
                                     href="#projects"
-                                    className=" hover:text-zinc-300 duration-200 ease-in-out"
+                                    className="w-72 hover:text-zinc-800 duration-200 ease-in-out  font-semibold text-black"
                                 >
                                     Projetos
                                 </a>
-                            </li>
-                            <li>
+                            </Button>
+                            <Button variant="outline" className="mb-2" asChild>
                                 <a
                                     href="#contact"
-                                    className=" hover:text-zinc-300 duration-200 ease-in-out"
+                                    className="w-72 hover:text-zinc-800 duration-200 ease-in-out  font-semibold text-black"
                                 >
                                     Contato
                                 </a>
-                            </li>
+                            </Button>
                         </ul>
                     </div>
-                    <div>
-                        <ul className="flex flex-row">
+                    <div className="w-full flex items-center justify-center border-t border-opacity-5">
+                        <ul className="flex flex-row p-5">
                             <li className="my-3 hover:scale-105 duration-150 px-2">
                                 <a
                                     href="https://www.linkedin.com/in/gabriel-mesquita-9614782b4/"
