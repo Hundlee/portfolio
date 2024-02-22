@@ -105,7 +105,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
     },
     {
         name: "Gerenciar usuários",
-        imageURL: "./noImage.png",
+        imageURL: "./backend.png",
         gitUrl: "https://github.com/Hundlee/users-manage-backend",
         alt: "Gerenciar usuarios",
         description: "Criar usuário | Backend",
