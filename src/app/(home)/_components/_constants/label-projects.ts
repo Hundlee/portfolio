@@ -121,6 +121,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
         name: "ContextAPI",
         imageURL: "./contextAPI.png",
         gitUrl: "https://github.com/Hundlee/reactContextAPI",
+        deploy: "https://react-context-api-kappa.vercel.app",
         alt: "contextAPI",
         description: "Criar dados, usando context API",
         technologies: ["typescript-icon.svg", "react.svg", "file-type-css.svg"],
