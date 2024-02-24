@@ -43,7 +43,7 @@ const Header = () => {
                     <Sidebar />
                 </div>
 
-                <ul className="hidden text-xl gap-8 text-zinc-500 uppercase font-medium md:flex mr-5">
+                <ul className="hidden text-sm gap-8 text-zinc-500 uppercase mr-5 font-medium md:flex lg:text-lg">
                     <li>
                         <a
                             href="#about-me"
