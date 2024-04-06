@@ -66,14 +66,14 @@ const Tools = () => {
                     </div>
                 </section>
 
-                <section className="w-[22rem] h-[25rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2 sm:w-[30rem] sm:h-[30rem] md:w-[45rem] md:h-[22rem] lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
+                <section className="w-[22rem] h-[25rem] border border-solid border-l-purple-50 flex flex-col rounded-xl bg-white gap-2 sm:w-[30rem] sm:h-[30rem] md:w-[45rem] md:h-[26rem] lg:w-[55rem] lg:h-[10rem] xl:w-[65rem] xl:h-[12rem] 2xl:w-[85rem] 2xl:h-[12rem] ">
                     <h2
                         className={`p-3 text-2xl text-black font-semibold text-center ${inter.className}`}
                     >
                         Backend
                     </h2>
                     <div className="flex justify-center">
-                        <article className="grid grid-cols-3 gap-10 mt-5 lg:grid-cols-6">
+                        <article className="grid grid-cols-3 gap-10 mt-5 lg:grid-cols-7">
                             {LABELBACKEND.map((item, index) => (
                                 <HoverCard key={index}>
                                     <HoverCardTrigger>

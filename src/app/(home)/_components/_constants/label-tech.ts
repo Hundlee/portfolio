@@ -108,4 +108,11 @@ export const LABELBACKEND: BackendProps[] = [
         alt: "firebaseIcon",
         description: "Firebase e um sistema de gerenciamento de banco de dados",
     },
+    {
+        name: "GrammY",
+        url: "./grammyY.svg",
+        alt: "grammYIcon",
+        description:
+            "grammY é uma estrutura para a criação de bots do Telegram. Ele pode ser usado em TypeScript e JavaScript e roda em Node.js, Deno e no navegador.",
+    },
 ];
