@@ -23,6 +23,20 @@ export const LABELSPROJECTS: ProjectProps[] = [
         ],
     },
     {
+        name: "DailyExpend",
+        gitUrl: "https://github.com/Hundlee/portfolio",
+        imageURL: "./dailyExpend.png",
+        alt: "dailyExpend",
+        description: "Monitorar gastos. Integrado com banco de dados",
+        technologies: [
+            "typescript-icon.svg",
+            "react.svg",
+            "next-js.svg",
+            "tailwind-css.svg",
+            "file-type-light-prisma.svg",
+        ],
+    },
+    {
         name: "ChatReact",
         imageURL: "./chatReact.png",
         gitUrl: "https://github.com/Hundlee/chatReact",
@@ -96,7 +110,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
         gitUrl: "https://github.com/Hundlee/snakegame",
         deploy: "https://snakegame-opal.vercel.app/",
         alt: "snakeGame",
-        description: "feito com JS",
+        description: "Jogo da cobra feito com JS",
         technologies: [
             "javascript-js.svg",
             "file-type-html.svg",
@@ -116,6 +130,14 @@ export const LABELSPROJECTS: ProjectProps[] = [
             "mongodb-original.svg",
             "fastify.svg",
         ],
+    },
+    {
+        name: "Bot Telegram Crypto",
+        imageURL: "./backend.png",
+        gitUrl: "https://github.com/Hundlee/bot-telegram-crypto",
+        alt: "BotTelegram",
+        description: "Monitor valores de Cryptomoedas",
+        technologies: ["typescript-icon.svg", "nodejs.svg", "grammyY.svg"],
     },
     {
         name: "ContextAPI",
