@@ -26,6 +26,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
         name: "DailyExpend",
         gitUrl: "https://github.com/Hundlee/portfolio",
         imageURL: "./dailyExpend.png",
+        deploy: "https://daily-expend.vercel.app/",
         alt: "dailyExpend",
         description: "Monitorar gastos. Integrado com banco de dados",
         technologies: [
