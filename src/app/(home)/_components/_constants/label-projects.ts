@@ -24,7 +24,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
     },
     {
         name: "DailyExpend",
-        gitUrl: "https://github.com/Hundlee/portfolio",
+        gitUrl: "https://github.com/Hundlee/daily-expend",
         imageURL: "./dailyExpend.png",
         deploy: "https://daily-expend.vercel.app/",
         alt: "dailyExpend",
