@@ -54,8 +54,8 @@ export const LABELSPROJECTS: ProjectProps[] = [
     {
         name: "Chat Clinica",
         imageURL: "./clinicaChat.png",
-        gitUrl: "https://github.com/Hundlee/chatReact",
-        deploy: "https://chat-react-kohl.vercel.app/",
+        gitUrl: "https://github.com/Hundlee/chatClinica",
+        deploy: "https://chat-clinica.vercel.app/",
         alt: "Chat Clinica",
         description: "Chat para atendimento de uma clinica",
         technologies: [
@@ -81,8 +81,8 @@ export const LABELSPROJECTS: ProjectProps[] = [
     {
         name: "Gerador de Senha",
         imageURL: "./passwordGenerator.png",
-        gitUrl: "https://github.com/Hundlee/CorverterApp",
-        deploy: "https://corverter-app.vercel.app/",
+        gitUrl: "https://github.com/Hundlee/Random-Password-Generator",
+        deploy: "https://random-password-generator-gamma-nine.vercel.app/",
         alt: "Gerador de Senha",
         description: "Criando com JS",
         technologies: [
