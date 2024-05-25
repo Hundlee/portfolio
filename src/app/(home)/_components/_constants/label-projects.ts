@@ -10,6 +10,21 @@ export interface ProjectProps {
 
 export const LABELSPROJECTS: ProjectProps[] = [
     {
+        name: "Micro-saas Todo",
+        gitUrl: "https://github.com/Hundlee/micro-saas-todo-app",
+        deploy: "https://micro-saas-todo-app-eosin.vercel.app/",
+        imageURL: "./micro-saas-todo.png",
+        alt: "micro-saas-todo",
+        description: "micro-saas para organizar tarefas diarias",
+        technologies: [
+            "typescript-icon.svg",
+            "react.svg",
+            "next-js.svg",
+            "tailwind-css.svg",
+            "file-type-light-prisma.svg",
+        ],
+    },
+    {
         name: "Portfólio",
         gitUrl: "https://github.com/Hundlee/portfolio",
         imageURL: "./portifolioProject.png",
@@ -59,6 +74,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
         alt: "Chat Clinica",
         description: "Chat para atendimento de uma clinica",
         technologies: [
+            "react.svg",
             "javascript-js.svg",
             "file-type-html.svg",
             "file-type-css.svg",
