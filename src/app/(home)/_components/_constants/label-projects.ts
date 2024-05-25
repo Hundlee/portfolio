@@ -102,7 +102,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
         gitUrl: "https://github.com/Hundlee/CorverterApp",
         deploy: "https://corverter-app.vercel.app/",
         alt: "ChatReact",
-        description: "Criando com JS",
+        description: "Converte o preços das moedas selecionadas",
         technologies: [
             "javascript-js.svg",
             "file-type-html.svg",
@@ -115,7 +115,7 @@ export const LABELSPROJECTS: ProjectProps[] = [
         gitUrl: "https://github.com/Hundlee/Random-Password-Generator",
         deploy: "https://random-password-generator-gamma-nine.vercel.app/",
         alt: "Gerador de Senha",
-        description: "Criando com JS",
+        description: "Gera senhas criptografadas",
         technologies: [
             "javascript-js.svg",
             "file-type-html.svg",
