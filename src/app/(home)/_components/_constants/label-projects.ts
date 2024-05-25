@@ -25,6 +25,21 @@ export const LABELSPROJECTS: ProjectProps[] = [
         ],
     },
     {
+        name: "BarberShop",
+        gitUrl: "https://github.com/Hundlee/barberShop",
+        deploy: "https://barber-shop-bice.vercel.app/",
+        imageURL: "./barbershop.png",
+        alt: "BarberShop",
+        description: "App para marcar horários em barbearias cadastradas",
+        technologies: [
+            "typescript-icon.svg",
+            "react.svg",
+            "next-js.svg",
+            "tailwind-css.svg",
+            "file-type-light-prisma.svg",
+        ],
+    },
+    {
         name: "Portfólio",
         gitUrl: "https://github.com/Hundlee/portfolio",
         imageURL: "./portifolioProject.png",
