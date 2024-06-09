@@ -13,7 +13,7 @@ const AboutMe = () => {
                     <span className="text-white font-semibold">
                         Gabriel Mesquita
                     </span>
-                    . Tenho 20 anos e sou um desenvolvedor{" "}
+                    . Tenho 21 anos e sou um desenvolvedor{" "}
                     <strong>FullStack</strong> apaixonado por programação. Com
                     mais de <strong>2 anos</strong> de experiência dedicada ao
                     estudo e prática em desenvolvimento web. Estou
